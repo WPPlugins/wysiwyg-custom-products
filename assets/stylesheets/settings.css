@@ -1,0 +1,81 @@
+/* =General CSS
+-------------------------------------------------------------- */
+
+button.wcp-button {
+    margin-left: 5px !important;
+}
+
+
+input.radio {
+    margin-right: 5px !important;
+    margin-left: 10px !important;
+}
+
+tr.wcp-highlight {
+    background-color: #8d8d8d;
+}
+
+fieldset.wcp {
+    border: 1px #8d8d8d;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+span.wcp-link {
+    padding-left: 15px;
+}
+
+span.right {
+    float: right;
+}
+
+span.disabled {
+    color: #9ea7af;
+}
+
+.wcp-link {
+    color: #0073aa;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.wcp-link:hover,
+.wcp-browse-image:hover {
+    cursor: pointer;
+}
+
+.wcp-link.disabled:hover {
+    cursor: default;
+}
+
+p.center {
+    text-align: center;
+}
+
+/* Override layout sizing to make it better for my screen*/
+@media only screen and (min-width: 850px) {
+
+    #poststuff #post-body.columns-2 {
+        margin-right: 500px;
+    }
+
+    #post-body.columns-2 #postbox-container-1 {
+        margin-right: -500px !important;
+        width: 480px !important;
+    }
+
+    #poststuff #post-body.columns-2 #side-sortables {
+        width: 480px;
+    }
+}
+
+.woocommerce_options_panel input[type=text] {
+    width: 80%;
+}
+
+/* Make sure entry table is suitably sized */
+td input[type=number], td input[type=text], td select {
+    width: 100% !important;
+}
+
+

@@ -1,0 +1,33 @@
+div.svg {
+    width: 100%;
+    margin: 0 auto;
+    height: 0;
+    padding-top: 48% !important;
+    margin-bottom: 40% !important;
+    position: relative;
+}
+
+svg.responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0 0;
+}
+
+div.wcp {
+    line-height: 1;
+}
+
+canvas.wcp-canvas {
+    font-size: 75px;
+}
+
+.wcp-hidden {
+    display: none !important;
+}
+
+p.wcp-lost-text {
+    font-weight: bolder;
+    background-color: #CCCCCC;
+    padding: 0.5em 10px;
+}
